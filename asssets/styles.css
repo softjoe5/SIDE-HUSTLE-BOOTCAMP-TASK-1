@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Darker Grotesque', sans-serif; 
+    scroll-behavior: smooth;
+    max-width: 100%;
+    /* background-color: #1A1F1A; */
+    
+}
+
+.nav-container {
+    width: 100%;
+    z-index: 50;
+    top: 0;
+    right: 0;
+    left: 0;
+    position: fixed;
+    background-color: #1A1F1A;
+}
+
+.navbar {
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    place-items: center;
+    grid-auto-flow: column;
+    display: grid;
+    grid-auto-flow: column;
+    position: relative;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 30px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    position: relative;
+    line-height: 24px;
+
+}
+
+#nav-menu {
+    column-gap: 3rem;
+    grid-template-columns: repeat(3,minmax(0,1fr));
+    justify-self: start;
+    display: block;
+}
+
+
+section[data-v-c41e8de5] {
+    background-image: url(/asssets/hero-bg-lines.29ae5167.svg);
+    background-size: contain;
+    background-position: right top;
+    background-repeat: no-repeat;
+    --tw-bg-opacity: 1;
+    background-color: rgb(26 31 26 / var(--tw-bg-opacity));
+    height: 100%;
+    display: block;    
+    padding-top: 6rem;
+}
+
+
+
+button[data-v-6bc2c164] {
+    max-height: -moz-fit-content;
+    max-height: fit-content;
+    border-radius: 5px;
+    --tw-bg-opacity: 1;
+    background-color: rgb(82 163 80 / var(--tw-bg-opacity));
+    padding: 0.875rem 2.5rem;
+    font-family: Manrope;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+    transition-property: all;
+    transition-timing-function: cubic-bezier(.4,0,.2,1);
+    transition-duration: .15s;
+    transition-timing-function: linear;
+    cursor: pointer;
+}
+
+section .partners_section[data-v-c41e8de5] {
+    display: flex;
+    grid-template-columns: repeat(4,minmax(0,1fr));
+    place-content: center;
+    align-content: space-around;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+section .partners_section div[data-v-c41e8de5] {
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.gap-8 {
+    gap: 2rem;
+}
+
+.font-header-1 {
+    font-family: Darker Grotesque;
+}
+
+.benefits_card[data-v-b4508298] {
+    background-image: url(/asssets/card-bg-lines.svg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 1.5rem;
+    background-size: contain;
+    background-position: right top;
+    background-repeat: no-repeat;
+    padding: 2rem;
+    text-align: left;
+}
+
+.hero_img_container[data-v-c41e8de5] {
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* @media (min-width: 1024px)
+/* @media (min-width: 1024px) */
+/* section .partners_section[data-v-c41e8de5] {
+    display: none;
+    grid-template-columns: repeat(4,minmax(0,1fr));
+    place-content: center;
+    align-content: space-around;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center; */
